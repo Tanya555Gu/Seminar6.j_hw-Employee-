@@ -89,7 +89,7 @@ public class Employee {
 
     @Override
     public int hashCode() {
-        return firstName.hashCode() + 7 * lastName.hashCode() + 13 * age;
+        return firstName.hashCode() + 7 * lastName.hashCode();
     }
 
 }
