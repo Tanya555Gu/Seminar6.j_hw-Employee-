@@ -83,8 +83,7 @@ public class Employee {
             return false;
         }
         Employee anotherEmployee = (Employee) anotherObject;
-        return firstName.equals(anotherEmployee.getFirstName()) && lastName.equals(anotherEmployee.getLastName())
-                && age == anotherEmployee.getAge() && salary == anotherEmployee.getSalary();
+        return firstName.equals(anotherEmployee.getFirstName()) && lastName.equals(anotherEmployee.getLastName());
     }
 
     @Override
